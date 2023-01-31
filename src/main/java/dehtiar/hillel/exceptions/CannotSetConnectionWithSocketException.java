@@ -1,0 +1,14 @@
+package dehtiar.hillel.exceptions;
+
+import java.io.IOException;
+
+/**
+ * @author Yaroslav Dehtiar on 27.01.2023
+ */
+public class CannotSetConnectionWithSocketException extends IOException {
+
+  public CannotSetConnectionWithSocketException() {
+    super("Socket is closed or not connected.");
+  }
+
+}
